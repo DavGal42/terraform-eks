@@ -3,7 +3,7 @@ variable "aws_region" {
 }
 
 variable "bucket_name" {
-  default = "dav-gal-yan-terraform-backend"
+  default = "YOUR-S3-BUCKET-NAME"
 }
 
 variable "dynamodb_table" {
