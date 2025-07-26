@@ -1,12 +1,12 @@
-terraform {
-  backend "s3" {
-    bucket         = "YOUR_S3_BUCKET_NAME"
-    key            = "eks/terraform.tfstate"
-    region         = var.aws_region
-    dynamodb_table = "terraform-locks"
-    encrypt        = true
-  }
-}
+#terraform {
+#  backend "s3" {
+#    bucket         = "YOUR_S3_BUCKET_NAME"
+#    key            = "eks/terraform.tfstate"
+#    region         = var.aws_region
+#    dynamodb_table = "terraform-locks"
+#    encrypt        = true
+#  }
+#}
 
 
 module "eks" {
