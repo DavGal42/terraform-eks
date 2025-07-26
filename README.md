@@ -9,7 +9,7 @@ This repository contains a modular Terraform setup for deploying infrastructure 
 
 ## Project Structure
 
-```
+```bash
 └── terraform-backend
 │   ├── main.tf
 │   ├── outputs.tf
@@ -26,7 +26,7 @@ This repository contains a modular Terraform setup for deploying infrastructure 
 
 ### 1. Install AWS CLI and configure it.
 
-```
+```bash
 aws configure
 ```
 
@@ -34,7 +34,7 @@ aws configure
 
 ### 3. Install Backend.
 
-```
+```bash
 terraform init
 terraform validate
 terraform fmt
@@ -45,7 +45,7 @@ terraform apply --auto-approve
 
 ### 5. Install EKS Cluster and other necessary components.
 
-```
+```bash
 terraform init
 terraform validate
 terraform fmt
