@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Memo.webp" alt="Memo" width="50" height="50" /> Terraform AWS Infrastructure
+# Terraform AWS Infrastructure
 
 This repository contains a modular Terraform setup for deploying infrastructure on AWS, split into two main components:
 
@@ -7,7 +7,7 @@ This repository contains a modular Terraform setup for deploying infrastructure 
 
 ---
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Card%20Index%20Dividers.webp" alt="Card Index Dividers" width="30" height="30" /> Project Structure
+## Project Structure
 
 ```
 └── terraform-backend
@@ -22,7 +22,7 @@ This repository contains a modular Terraform setup for deploying infrastructure 
     └── variables.tf
 ```
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Travel%20and%20Places/Rocket.webp" alt="Rocket" width="30" height="30" /> Installation Guide
+## Installation Guide
 
 ### 1. Install AWS CLI and configure it.
 
